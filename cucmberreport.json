@@ -1,0 +1,190 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validate Calculator app and Angular website",
+    "line": 1,
+    "id": "validate-calculator-app-and-angular-website",
+    "tags": [],
+    "uri": "Features\\Demo.feature",
+    "elements": [
+      {
+        "id": "validate-calculator-app-and-angular-website;angular-website-functionality",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Angular website Functionality",
+        "tags": [
+          {
+            "name": "@AngularValidations",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepDefination\\Hooks.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Navigate to the \"AngularJs\" site",
+            "match": {
+              "location": "StepDefination\\Steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3932000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User clicks on Header Link",
+            "match": {
+              "location": "StepDefination\\Steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3625000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User is navigated to Angular webPage",
+            "match": {
+              "location": "StepDefination\\Steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User Enters \"Hello\" in the SearchBox",
+            "match": {
+              "location": "StepDefination\\Steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3190000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validate-calculator-app-and-angular-website;angular-website-functionality",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Angular website Functionality",
+        "tags": [
+          {
+            "name": "@AngularValidations",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepDefination\\Hooks.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Navigate to the \"AngularJs\" site",
+            "match": {
+              "location": "StepDefination\\Steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1415000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User clicks on Header Link",
+            "match": {
+              "location": "StepDefination\\Steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User is navigated to Angular webPage",
+            "match": {
+              "location": "StepDefination\\Steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User Enters \"Hey\" in the SearchBox",
+            "match": {
+              "location": "StepDefination\\Steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3183000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
